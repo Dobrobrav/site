@@ -1,0 +1,66 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>Все относительно</title>
+		<!-- Подключаем шрифты Google -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style_relative.css" />
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+		<meta name="viewport" content="width=device-width">
+	</head>
+	<body>
+		<header>
+			<h1>В мире относительно всё<br>Даже физика</h1>
+		</header>
+		<div class="content">
+			<div class="content-departments">
+				<div class="department">
+					<div class="picture">
+						<img src="img/relative/STO3.png" alt="">
+					</div>
+					<div class="department-text">
+						Специальная теория относительности — теория, описывающая движение, законы механики и пространственно-временные отношения при произвольных скоростях движения, меньших скорости света в вакууме, в том числе близких к скорости света
+					</div>
+				</div>
+				<div class="department">
+					<div class ="picture">
+						<img src="img/relative/OTO.jfif" alt="">
+					</div>
+					<div class="department-text">
+						Общая теория относительности — общепринятая в настоящее время теория тяготения, описывающая тяготение как проявление геометрических свойств пространства-времени. Теория была предложена Альбертом Эйнштейном в 1915—1916 годах. В теории постулируется, что силы гравитации силы инерции имеют одну и ту же природу.
+					</div>
+				</div>
+				<div class="video">
+					<div class ="video-flex">
+						<iframe class="au" src="https://www.youtube.com/embed/4eFRC_bwtXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="video-flex">
+						<iframe class="au" src="https://www.youtube.com/embed/5jVXCvXLfqI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="flex">
+				<a href="index.html"class="footer-flex-div">Физика <br>Наука о прекрасном</a>
+				<a href="haha_classic.html" class="footer-flex-div">Классика</a>
+				<a href="haha_relative.html" class="footer-flex-div">Относительность</a>
+				<a href="haha_quantum.html" class="footer-flex-div">Кванты</a>
+				<div class="up">↑</div>
+			</div>
+		</footer>
+		<script>
+			document.querySelector('.up').onclick = () => {
+				window.scrollTo(pageYOffset, 0);
+			}
+		</script>
+	</body>
+</html>

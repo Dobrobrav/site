@@ -1,0 +1,69 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>Наука о прекрасном</title>
+		<!-- Подключаем шрифты Google -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+		<meta name="viewport" content="width=device-width">
+	</head>
+	<body>
+		<header>
+			<h1>Физика <br>Наука о прекрасном</h1>
+		</header>
+		<div class="content">
+			<div class="box_for_h2">
+				<h2 class="h2">Основные направления в физике:</h2>
+			</div>
+			<div class="content-departments">
+				<div class="department">
+					<div class="picture">
+						<a href="haha_classic.html" class="link"><img src="img/classic.png" alt=""></a>
+					</div>
+					<div class="department-text">
+						Физика до появления квантовой теории и теории относительности. Основы классической физики были заложены в Эпоху Возрождения рядом учёных, из которых особенно выделяют Ньютона — создателя классической механики. Несмотря на то, что в рамках классической физики многие явления не нашли адекватного описания, она и сегодня является существенной частью «золотого фонда» знаний человечества, и наиболее востребована в большинстве приложений физики и инженерных дисциплин.
+					</div>
+				</div>
+				<div class="department">
+					<div class ="picture">
+						<a href="haha_relative.html" class="link"><img src="img/relativity.png" alt=""></a>
+					</div>
+					<div class="department-text">
+						Теория относительности — физическая теория пространства-времени, то есть теория, описывающая универсальные пространственно-временные свойства физических процессов. Термин был введён в 1906 году Максом Планком с целью подчеркнуть роль принципа относительности в специальной теории относительности (и, позже, общей теории относительности). Иногда используется как эквивалент понятия «релятивистская физика»
+					</div>
+				</div>
+				<div class="department">
+					<div class ="picture">
+						<a href="haha_quantum.html" class="link"><img src="img/quantum.png" alt=""></a>
+					</div>
+					<div class="department-text">
+						Квантовая физика — это раздел теоретической физики, в котором изучаются квантово-механические и квантово-полевые системы и законы их движения. Основные законы квантовой физики изучаются в рамках квантовой механики и квантовой теории поля и применяются в других разделах физики. Все современные космологические теории также опираются на квантовую механику, которая описывает поведение атомных и субатомных частиц. Квантовая физика сосредоточена только на математическом описании процессов наблюдения и измерения.
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="flex">
+				<a href="index.html"class="footer-flex-div">Физика <br>Наука о прекрасном</a>
+				<a href="haha_classic.html" class="footer-flex-div">Классика</a>
+				<a href="haha_relative.html" class="footer-flex-div">Относительность</a>
+				<a href="haha_quantum.html" class="footer-flex-div">Кванты</a>
+				<div class="up">↑</div>
+			</div>
+		</footer>
+		<script>
+			document.querySelector('.up').onclick = () => {
+				window.scrollTo(pageYOffset, 0);
+			}
+		</script>
+	</body>
+</html>

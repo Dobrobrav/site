@@ -1,0 +1,66 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>Классика - всегда актуальна</title>
+		<!-- Подключаем шрифты Google -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style_classic.css" />
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+		<meta name="viewport" content="width=device-width">
+	</head>
+	<body>
+		<header>
+			<h1>Классическая физика<br>Как и музыка - всегда актуальна</h1>
+		</header>
+		<div class="content">
+			<div class="content-departments">
+				<div class="department">
+					<div class="picture">
+						<img src="img/classic/laws.png" alt="">
+					</div>
+					<div class="department-text">
+						<div class="text">Законы Ньютона — три важнейших закона классической механики, которые позволяют записать уравнения движения для любой механической системы, если известны силы, действующие на составляющие её тела.</div>
+					</div>
+				</div>
+				<div class="department">
+					<div class ="picture">
+						<img src="img/classic/tyag.jpg" alt="">
+					</div>
+					<div class="department-text">
+						Закон всемирного тяготения объясняет механическое устройство Солнечной системы, и законы Кеплера, описывающие траектории движения планет, могут быть выведены из него. Для Кеплера его законы носили чисто описательный характер — ученый просто обобщил свои наблюдения в математической форме, не подведя под формулы никаких теоретических оснований. В великой же системе мироустройства по Ньютону законы Кеплера становятся прямым следствием универсальных законов механики и закона всемирного тяготения.
+					</div>
+				</div>
+				<div class="video">
+					<div class ="video-flex">
+						<iframe src="https://www.youtube.com/embed/6FRonW4oSao" class="au" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="video-flex">
+						<iframe src="https://www.youtube.com/embed/vK4xmwV-RBc" class="au" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="flex">
+				<a href="index.html"class="footer-flex-div">Физика <br>Наука о прекрасном</a>
+				<a href="haha_classic.html" class="footer-flex-div">Классика</a>
+				<a href="haha_relative.html" class="footer-flex-div">Относительность</a>
+				<a href="haha_quantum.html" class="footer-flex-div">Кванты</a>
+				<div class="up">↑</div>
+			</div>
+		</footer>
+		<script>
+			document.querySelector('.up').onclick = () => {
+				window.scrollTo(pageYOffset, 0);
+			}
+		</script>
+	</body>
+</html>
